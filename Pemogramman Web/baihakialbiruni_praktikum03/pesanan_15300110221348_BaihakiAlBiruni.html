@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: #eeeeee; padding: 50px; font-family: fantasy">
+    <nav style="background-color: white; border: 2px solid #000">
+      <div>
+        <ul
+          style="
+            display: flex;
+            text-decoration: none;
+            list-style: none;
+            justify-content: space-around;
+          "
+        >
+          <li>Home</li>
+          <li>|</li>
+          <li>Generate Link</li>
+          <li>|</li>
+          <li>Transaction History</li>
+          <li>|</li>
+          <li>Policy</li>
+          <li>|</li>
+          <li>Logout</li>
+        </ul>
+      </div>
+    </nav>
+    <main style="display: flex; justify-content: start; padding: 25px 0px">
+      <aside style="display: flex; flex-direction: column">
+        <img src="./img/fotoCV.jpeg" alt="fotoCV" width="200" height="200" />
+        <input
+          style="margin-top: 10px"
+          type="file"
+          name="uploadfile"
+          id="img"
+        />
+      </aside>
+      <div>
+        <table>
+          <tr>
+            <th style="text-align: left">Title Here :</th>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <th style="text-align: left">Description :</th>
+            <td><textarea cols="30" rows="10"></textarea></td>
+          </tr>
+          <tr>
+            <th style="text-align: left">Account Number :</th>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <th style="text-align: left">Bank :</th>
+            <td>
+              <select>
+                <option value="">test</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th style="text-align: left">Account Holder :</th>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <th style="text-align: left; margin-top: -25px">Transaction :</th>
+            <td>
+              <input type="number" /><small style="display: block"
+                >*if the transaction is for 3 person, choose 3 from the
+                drop-down list</small
+              >
+              <input
+                type="checkbox"
+                id="vehicle1"
+                name="vehicle1"
+                value="Bike"
+              />
+              <label for="vehicle1"> Send to Mobile Phone</label><br />
+              <input
+                type="checkbox"
+                id="vehicle2"
+                name="vehicle1"
+                value="Bike"
+              />
+              <label for="vehicle1"> Send to Email</label><br />
+            </td>
+          </tr>
+          <tr>
+            <th style="text-align: left">Send to Mobile Phone :</th>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <th style="text-align: left">Send to Email :</th>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <th style="text-align: left"></th>
+            <td>
+              <button
+                style="
+                  background-color: #349e10;
+                  padding: 6px 15px;
+                  color: white;
+                  border: none;
+                "
+              >
+                Generate Nabr Link
+              </button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>

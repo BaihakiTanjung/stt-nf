@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div style="background-color: #eeeeee; padding: 25px;font-family:fantasy">
+      <div style="display: flex; flex-direction: column">
+        <div class="title">
+          <h1><strong>Black Goose Bistro | Pizza-on-Demand</strong></h1>
+          <p>
+            Our 12" wood-fired pizzas are avaiblable for delivery. Build you
+            custom pizza and we'll deliver it within an hour.
+          </p>
+        </div>
+
+        <div class="information">
+          <h2>Your information</h2>
+          <table>
+            <tr>
+              <th style="text-align: left">Name :</th>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <th style="text-align: left">Address :</th>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <th style="text-align: left">Telephone Number :</th>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <th style="text-align: left">Email :</th>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <th style="text-align: left">Delivery instructions :</th>
+              <td>
+                <textarea
+                  name="delivery"
+                  cols="30"
+                  rows="10"
+                  placeholder="No more than 400 characters long"
+                ></textarea>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <hr />
+
+        <div class="pizza-dream">
+          <h2 style="margin: 10px 0 -14px 0">Design You Dream Pizza:</h2>
+          <p>Pizza Specs</p>
+
+          <div class="crust">
+            <h4 style="margin: 10px 0 0 0">Crust (Choose one)</h4>
+            <select name="crust">
+              <option value="classic-white">Classis White</option>
+              <option value="classic-white">Multigrain</option>
+              <option value="classic-white">Cheese-stuffed crust</option>
+              <option value="classic-white">Gluten-free</option>
+            </select>
+          </div>
+
+          <div class="toopings">
+            <h4 style="margin: 10px 0 0 0">
+              Toopings (Choose as many as you want):
+            </h4>
+            <input type="checkbox" id="vehicle1" name="vehicle3" value="Bike" />
+            <label for="vehicle1"> Red sauce</label><br />
+            <input type="checkbox" id="vehicle2" name="vehicle3" value="Car" />
+            <label for="vehicle2"> White sauce</label><br />
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+            <label for="vehicle3"> Mozzarella cheese</label><br />
+            <input type="checkbox" id="vehicle4" name="vehicle3" value="Boat" />
+            <label for="vehicle3"> Pepperoni</label><br />
+            <input type="checkbox" id="vehicle5" name="vehicle3" value="Boat" />
+            <label for="vehicle3"> Mushrooms</label><br />
+            <input type="checkbox" id="vehicle6" name="vehicle3" value="Boat" />
+            <label for="vehicle3"> Peppers</label><br />
+            <input type="checkbox" id="vehicle7" name="vehicle3" value="Boat" />
+            <label for="vehicle3"> Anchovies</label><br />
+          </div>
+
+          <div class="number">
+            <h4 style="margin: 10px 0 0 0">Number</h4>
+            <label>How many pizzas: </label><input type="number" />
+          </div>
+
+          <div style="margin: 25px" class="submit">
+            <button style="margin-right: 10px">Bring me pizza</button
+            ><button>Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
