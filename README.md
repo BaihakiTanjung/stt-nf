@@ -1,2 +1,2 @@
-# stt_nf
+# stt-nf
 Semua berkas perkuliahan sekolah terpadu nurul fikri
