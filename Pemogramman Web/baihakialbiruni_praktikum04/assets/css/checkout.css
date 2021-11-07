@@ -1,0 +1,95 @@
+.reset-mp {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: fantasy;
+}
+
+nav {
+  background-color: #dddddd;
+  padding: 25px;
+}
+
+nav h2 {
+  margin: 0px;
+  padding: 10px;
+}
+
+nav ul {
+  gap: 10px;
+  text-decoration: none;
+  list-style: none;
+  margin: 5px;
+  padding: 10px;
+}
+
+nav .right {
+  padding: 10px;
+}
+
+main {
+  padding: 25px;
+}
+
+main .main-section {
+  gap: 25px;
+}
+
+main .order {
+  margin: 20px 20px;
+}
+
+aside .summary {
+  background-color: lightgray;
+  padding: 1px 25px;
+}
+
+aside button.btn-checkout {
+  width: 100%;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: lightgray;
+  padding: 25px;
+}
+
+footer ul {
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+  list-style: none;
+  margin: 5px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.w-30 {
+  width: 30%;
+}
