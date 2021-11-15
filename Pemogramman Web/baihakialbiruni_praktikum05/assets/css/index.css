@@ -1,0 +1,120 @@
+.d-flex {
+  display: flex;
+}
+
+/* Praktikum 5.1 */
+.web_51 div {
+  width: 200px;
+  height: 100vh;
+  display: flex;
+  margin: 1em;
+  border: 2px solid #000;
+}
+
+.web_51 .kotak_1 {
+  background-color: yellow;
+}
+
+.web_51 .kotak_2 {
+  background-color: red;
+}
+
+.web_51 .kotak_3 {
+  background-color: green;
+}
+
+.web_51 .kotak_4 {
+  background-color: blue;
+}
+
+/* Praktikum 5.2 */
+.web_52 div {
+  margin: 10px;
+}
+
+.web_52 .kotak_1 {
+  width: 100%;
+  height: 100px;
+  background-color: green;
+}
+
+.web_52 .kotak_2 {
+  width: 30%;
+  height: 100px;
+  background-color: yellow;
+}
+
+.web_52 .kotak_3 {
+  width: 70%;
+  height: 100px;
+  background-color: orange;
+}
+
+.web_52 .kotak_4 {
+  width: 30%;
+  height: 100px;
+  background-color: yellow;
+}
+
+.web_52 .kotak_5 {
+  width: 70%;
+  height: 100px;
+  background-color: blue;
+}
+
+.web_52 .kotak_1,
+.web_52 .kotak_2,
+.web_52 .kotak_3,
+.web_52 .kotak_4,
+.web_52 .kotak_5 {
+  border: 2px solid #000;
+}
+
+/* Praktikum 5.3 */
+.web_53 div {
+  margin: 5px;
+}
+
+.web_53 .kotak_1 {
+  width: 25%;
+  height: 50px;
+  background-color: yellow;
+}
+
+.web_53 .kotak_2 {
+  width: 75%;
+  height: 50px;
+  background-color: orangered;
+}
+
+.web_53 .kotak_3 {
+  width: 25%;
+  height: 500px;
+  background-color: greenyellow;
+}
+
+.web_53 .kotak_4 {
+  width: 50%;
+  height: 500px;
+  background-color: gray;
+}
+
+.web_53 .kotak_5 {
+  width: 25%;
+  height: 500px;
+  background-color: aqua;
+}
+
+.web_53 .kotak_6 {
+  width: 100%;
+  height: 50px;
+  background-color: blue;
+}
+
+.web_53 .kotak_1,
+.web_53 .kotak_2,
+.web_53 .kotak_3,
+.web_53 .kotak_4,
+.web_53 .kotak_5 {
+  border: 2px solid #000;
+}

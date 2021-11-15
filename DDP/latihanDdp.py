@@ -83,21 +83,19 @@
 # print(string)
 
 # Soal 4
-for i in range(0, 17):
-    if i % 2 == 1:
-        print(" ", ' '*15, " ")
-    elif i > 0 and i < 16:
-        if i == 4:
-            print("|", " - "*5, "|")
-        else : 
-            print("|", ' '*15, "|")
-    else:
-        print("- "*10)
+# for i in range(0, 17):
+#     if i % 2 == 1:
+#         print(" ", ' '*15, " ")
+#     elif i > 0 and i < 16:
+#         if i == 4:
+#             print("|", " - "*5, "|")
+#         else:
+#             print("|", ' '*15, "|")
+#     else:
+#         print("- "*10)
 
 # Soal 5
-for i in range(0, 1):
-    for c in range(1, 4):
-        print(c, end=" ")
-            
+for i in range(0, 3):
+    for x in range(0, 10):
+        print(x, end="")
 
-            
