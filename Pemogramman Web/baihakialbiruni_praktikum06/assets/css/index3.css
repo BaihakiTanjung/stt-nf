@@ -1,0 +1,60 @@
+body {
+  background-color: #fdafb1;
+  font-family: "Courier New", Courier, monospace;
+  height: 100vh;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+header,
+footer {
+  background-color: #98d1c7;
+  padding: 1em 1em;
+}
+
+div {
+  margin: 10px;
+}
+
+.content {
+  display: flex;
+  height: 500px;
+}
+
+aside {
+  display: flex;
+  padding: 1em;
+  background-color: #98d1c7;
+  order: 1;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.article-container {
+  order: 2;
+  flex: 1;
+  background-color: #fa7a7b;
+}
+
+.article-main {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.article-list {
+  display: flex;
+  gap: 10px;
+}
+
+article {
+  padding: 1em;
+  background-color: gainsboro;
+}

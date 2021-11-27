@@ -1,0 +1,9 @@
+/* h1 {
+  border: 3px solid blue;
+  text-align: center;
+} */
+
+.float {
+  float: right;
+  width: 30%;
+}
