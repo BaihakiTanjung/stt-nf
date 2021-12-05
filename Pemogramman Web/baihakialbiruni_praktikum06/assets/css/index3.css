@@ -51,6 +51,8 @@ aside {
 
 .article-list {
   display: flex;
+  align-self: center;
+
   gap: 10px;
 }
 
