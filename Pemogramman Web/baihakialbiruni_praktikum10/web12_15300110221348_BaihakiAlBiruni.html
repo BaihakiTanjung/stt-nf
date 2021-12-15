@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/index1.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <div class="luas-lingkaran bg-yellow-300 items-center h-screen p-10">
+      <div class="flex justify-center p-5 text-gray-700 text-center">
+        <h1 class="text-3xl font-bold">Menghitung Biaya Parkir</h1>
+      </div>
+      <div class="flex justify-center p-5">
+        <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+          <div class="m-4 flex">
+            <input
+              class="
+                shadow
+                appearance-none
+                border
+                rounded
+                w-full
+                py-2
+                px-3
+                text-gray-700
+                leading-tight
+                focus:outline-none focus:shadow-outline
+              "
+              id="masuk"
+              type="text"
+              placeholder="Masuk"
+            />
+          </div>
+          <div class="m-4 flex">
+            <input
+              class="
+                shadow
+                appearance-none
+                border
+                rounded
+                w-full
+                py-2
+                px-3
+                text-gray-700
+                leading-tight
+                focus:outline-none focus:shadow-outline
+              "
+              id="keluar"
+              type="text"
+              placeholder="Keluar"
+            />
+          </div>
+          <div class="m-4 flex">
+            <button
+              class="
+                bg-blue-500
+                hover:bg-blue-700
+                text-white
+                font-bold
+                py-2
+                px-5
+                rounded
+                mx-auto
+                focus:outline-none focus:shadow-outline
+              "
+              type="button"
+              onclick="lamaParkir()"
+            >
+              Hitung
+            </button>
+          </div>
+          <div class="text-center">
+            <h4>Lama :<span id="hasilLamaParkir"></span></h4>
+          </div>
+          <div class="text-center">
+            <h4>Biaya :<span id="hasilBiayaParkir"></span></h4>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="./assets/js/index.js"></script>
+</html>
