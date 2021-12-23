@@ -16,8 +16,14 @@
 
 # print(find_by_name('Dian', hasil_akhir))
 
-
 # tugas 2
+
+seq=[10, 20, 15, 75, 90, 65]
+
+def cari_max(list):
+    
+
+# tugas 3
 
 def binary_search_recursive(list, target, start, end):
     if start > end:
