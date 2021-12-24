@@ -41,6 +41,24 @@
 # print(fibonacci_iterasi(10))
 
 # tugas 3
-# rekursi
-# penguraian pemanggilan jumlah
 
+def jumlah(n):
+    if n == 0:
+        return 0
+    else:
+        return n + jumlah(n-1)
+
+
+print(jumlah(5))
+
+# tugas 4
+
+
+def jumlah(n):
+    if n == 0:
+        return 0
+    else:
+        return n + jumlah(n-1)
+
+
+print(jumlah(6))
