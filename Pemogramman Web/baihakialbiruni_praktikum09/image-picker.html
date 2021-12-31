@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <div class="bg-yellow-300 items-center h-screen p-10">
+      <div class="flex justify-center text-gray-700 text-center">
+        <h1 class="text-3xl font-bold">Image Picker</h1>
+      </div>
+      <div class="flex justify-center p-5">
+        <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+          <div class="m-4 flex justify-center">
+            <div class="mx-5 mt-2">
+              <select
+                onchange="changeImage()"
+                name="selectGambar"
+                id="selectGambar"
+              >
+                <option value="1">Gambar 1</option>
+                <option value="2">Gambar 2</option>
+                <option value="3">Gambar 3</option>
+                <option value="4">Gambar 4</option>
+                <option value="5">Gambar 5</option>
+                <option value="6">Gambar 6</option>
+              </select>
+            </div>
+          </div>
+          <div class="flex">
+            <div>
+              <img
+                id="gambar"
+                width="500"
+                height="500"
+                src="./assets/img/1.jpg"
+                alt="gambar"
+                srcset=""
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="./assets/js/image-picker.js"></script>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <div class="luas-lingkaran bg-yellow-300 items-center h-screen p-10">
+      <div class="flex justify-center p-5 text-gray-700 text-center">
+        <h1 class="text-3xl font-bold">Kurs Rupiah</h1>
+      </div>
+      <div class="flex justify-center p-5">
+        <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+          <div class="m-4 flex">
+            <input
+              class="
+                shadow
+                appearance-none
+                border
+                rounded
+                w-full
+                py-2
+                px-3
+                text-gray-700
+                leading-tight
+                focus:outline-none focus:shadow-outline
+              "
+              id="nilai"
+              type="text"
+              placeholder="nilai"
+              onchange="convertMataUang()"
+            />
+
+            <div class="mx-5 mt-2">
+              <select
+                onchange="convertMataUang()"
+                name="mataUang"
+                id="mataUang"
+              >
+                <option value="Dollar US">Dollar US</option>
+                <option value="Dollar Singapore">Dollar Singapore</option>
+                <option value="Ringgit Malaysia">Ringgit Malaysia</option>
+                <option value="Yen Jepan">Yen Jepan</option>
+                <option value="Euro">Riyal Arab Saudi</option>
+              </select>
+            </div>
+
+            <input
+              class="
+                shadow
+                appearance-none
+                border
+                rounded
+                w-full
+                py-2
+                px-3
+                text-gray-700
+                leading-tight
+                focus:outline-none focus:shadow-outline
+              "
+              disabled
+              id="hasil"
+              type="text"
+              placeholder="hasil"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="./assets/js/kurs.js"></script>
+</html>
