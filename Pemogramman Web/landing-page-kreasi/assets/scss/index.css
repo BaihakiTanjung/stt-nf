@@ -1,0 +1,112 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hero {
+  color: white;
+}
+
+.hero .jumbotron {
+  background: url("../img/hero1.jpeg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.hero h1 {
+  font-size: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem !important;
+  }
+}
+
+.hero p {
+  font-size: 1rem;
+  color: rgba(226, 220, 220, 0.747);
+}
+
+@media only screen and (min-width: 768px) {
+  .hero p {
+    font-size: 1.5rem !important;
+  }
+}
+
+.feature img {
+  margin-top: 25px;
+  width: 100%;
+}
+
+.footer {
+  margin-top: -80px;
+}
+
+.footer a {
+  margin: 0 10px;
+}
+
+.social-proof-heading h1 {
+  font-size: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .social-proof-heading h1 {
+    font-size: 2.5rem !important;
+  }
+}
+
+.social-proof-heading p {
+  font-size: 1rem;
+  color: rgba(226, 220, 220, 0.747);
+}
+
+@media only screen and (min-width: 768px) {
+  .social-proof-heading p {
+    font-size: 1.5rem !important;
+  }
+}
+
+.social-proof-heading .jumbotron {
+  color: white;
+  background: url("../img/hero2.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.social-proof-heading i {
+  font-size: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .social-proof-heading .row {
+    text-align: center;
+    font-size: 100px !important;
+  }
+  .social-proof-heading .row .icon {
+    margin: 25px 0;
+  }
+}
+
+section {
+  margin: 100px 0;
+}
+
+.jumbotron {
+  margin-top: -100px;
+}
+
+.btn-rounded {
+  border-radius: 25px !important;
+}
+
+.btn-primary {
+  background-color: #2980b9 !important;
+}
+/*# sourceMappingURL=index.css.map */

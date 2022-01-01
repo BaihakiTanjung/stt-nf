@@ -1,0 +1,112 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hero {
+  color: white;
+  .jumbotron {
+    background: url("../img/hero1.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  h1 {
+      font-size: 2rem;
+
+      @media only screen and (min-width: 768px) {
+        font-size: 2.5rem !important;
+    }
+  }
+
+  p {
+    font-size: 1rem;
+    color: rgba(226, 220, 220, 0.747);
+
+    @media only screen and (min-width: 768px) {
+        font-size: 1.5rem !important;
+    }
+  }
+}
+
+.feature {
+  img {
+    margin-top: 25px;
+    width: 100%;
+  }
+}
+
+.footer {
+  margin-top: -80px;
+  a {
+    margin: 0 10px;
+  }
+}
+
+.social-proof-heading {
+
+    h1 {
+        font-size: 2rem;
+  
+        @media only screen and (min-width: 768px) {
+          font-size: 2.5rem !important;
+      }
+    }
+  
+    p {
+      font-size: 1rem;
+      color: rgba(226, 220, 220, 0.747);
+  
+      @media only screen and (min-width: 768px) {
+          font-size: 1.5rem !important;
+      }
+    }
+
+  .jumbotron {
+    color: white;
+    background: url("../img/hero2.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    object-fit: cover;
+  }
+
+  i {
+    font-size: 100px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .row {
+      text-align: center;
+      font-size: 100px !important;
+
+      .icon {
+        margin: 25px 0;
+      }
+    }
+  }
+}
+
+section {
+  margin: 100px 0;
+}
+
+.jumbotron {
+  margin-top: -100px;
+}
+
+.btn-rounded {
+    border-radius: 25px !important;
+}
+
+.btn-primary {
+    background-color : #2980b9 !important
+}
