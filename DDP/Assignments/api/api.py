@@ -6,9 +6,10 @@ from os import system
 class Pokemon:
 
     offset = 0
-    total_data = 100
+    limit = 100
+    total_data = 10
     url = "https://pokeapi.co/api/v2/ability/?offset=" + \
-        str(offset) + "&limit=" + str(total_data)
+        str(offset) + "&limit=" + str(limit)
     data = []
 
     def getPokemonData(self, order="ASC", page=1):
@@ -21,7 +22,7 @@ class Pokemon:
         self.data = self.data[start:start+self.total_data]
         self.data = sorted(
             self.data, reverse=True if order == "DESC" else False)
-        print(tabulate(self.data, header, tablefmt="grid"))
+        print(tabulate(self.data, header, tablefmt="github"))
 
     def preview(self):
         system('cls')
