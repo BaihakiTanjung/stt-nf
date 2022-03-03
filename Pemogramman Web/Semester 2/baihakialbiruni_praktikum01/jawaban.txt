@@ -1,0 +1,12 @@
+1. Apa bedanya variabel user dengan variable system ?
+    Variable user adalah variabel yang dibuat oleh user, dan variable system adalah variabel yang dibuat oleh system.
+2. Apa persamaan variable system dengan variable konstan
+    Variable system adalah variabel yang dibuat oleh system, dan variable konstan adalah variabel yang dibuat oleh user.
+3. Jelaskan apa fungsi sort(array), arsort(array) ?
+    Fungsi sort(array) adalah fungsi untuk mengurutkan array secara ascending, sedangkan fungsi arsort(array) adalah fungsi untuk mengurutkan array secara descending.
+4. Jelaskan apa fungsi array_pop($array) ?
+    Fungsi array_pop($array) adalah fungsi untuk menghapus elemen terakhir dari array.
+5. Jelaskan apa fungsi array_push($array) ?
+    Fungsi array_push($array) adalah fungsi untuk menambahkan elemen baru ke dalam array.
+6. Jelaskan apa fungsi array_shift($array) ?
+    Fungsi array_shift($array) adalah fungsi untuk menghapus elemen pertama dari array.
